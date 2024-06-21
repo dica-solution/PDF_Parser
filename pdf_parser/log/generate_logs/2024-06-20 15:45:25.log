@@ -1,0 +1,1137 @@
+2024-06-20 15:45:29,170 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:45:32,164 - pdf_parser.src.modules.generate - INFO - Extracted information: {'exam_code': 305, 'number_of_questions': 50, 'school': 'TRƯỜNG THPT PHÙ CỪ', 'subject': 'TOÁN', 'grade': 12, 'duration': 90, 'year': '2022 - 2023', 'exam_term': 'Giữa kỳ I', 'exam_full_name': 'ĐỀ KIỂM TRA GIỮA KỲ I KHỐI 12'}
+2024-06-20 15:45:35,033 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:45:49,247 - pdf_parser.src.modules.generate - INFO - Extracted Correct answer table - 0: | Câu | 305 | 306 | 307 | 308 |
+|---|---|---|---|---|
+| 1 | C | C | C | D |
+| 2 | A | D | A | A |
+| 3 | D | B | D | B |
+| 4 | C | B | A | D |
+| 5 | B | D | A | C |
+| 6 | B | A | C | C |
+| 7 | A | B | A | B |
+| 8 | D | C | D | A |
+| 9 | D | B | A | D |
+| 10 | D | C | B | D |
+| 11 | D | C | D | D |
+| 12 | D | B | D | C |
+| 13 | D | D | B | D |
+| 14 | D | B | D | D |
+| 15 | B | D | C | D |
+| 16 | D | D | C | A |
+| 17 | B | B | D | D |
+| 18 | A | D | A | C |
+| 19 | D | D | D | D |
+| 20 | D | A | C | D |
+| 21 | C | C | D | A |
+| 22 | D | D | C | B |
+| 23 | A | B | B | B |
+| 24 | C | C | A | D |
+| 25 | D | D | D | C |
+| 26 | C | B | C | B |
+| 27 | B | B | C | A |
+| 28 | D | B | C | D |
+| 29 | A | A | C | B |
+| 30 | D | D | B | B |
+| 31 | D | B | A | D |
+| 32 | C | C | B | B |
+| 33 | D | C | C | B |
+| 34 | A | D | D | C |
+| 35 | D | C | B | D |
+| 36 | B | D | A | A |
+| 37 | B | A | B | D |
+| 38 | C | D | C | B |
+| 39 | B | B | D | D |
+| 40 | A | B | D | D |
+| 41 | D | B | D | C |
+| 42 | C | C | A | A |
+| 43 | B | B | D | B |
+| 44 | D | A | C | C |
+| 45 | D | D | C | B |
+| 46 | A | A | B | C |
+| 47 | A | A | D | D |
+| 48 | B | C | B | C |
+| 49 | B | D | C | D |
+| 50 | B | A | D | B |
+
+2024-06-20 15:45:52,249 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:00,702 - pdf_parser.src.modules.generate - INFO - Extracted Correct answer table - 1: ## Đáp án Đề thi Mã 305
+
+| Câu | Đáp án |
+|---|---|
+| 1 | C |
+| 2 | A |
+| 3 | D |
+| 4 | C |
+| 5 | B |
+| 6 | B |
+| 7 | A |
+| 8 | D |
+| 9 | D |
+| 10 | D |
+| 11 | D |
+| 12 | D |
+| 13 | D |
+| 14 | D |
+| 15 | B |
+| 16 | D |
+| 17 | B |
+| 18 | A |
+| 19 | D |
+| 20 | D |
+| 21 | C |
+| 22 | D |
+| 23 | A |
+| 24 | C |
+| 25 | D |
+| 26 | C |
+| 27 | B |
+| 28 | D |
+| 29 | A |
+| 30 | D |
+| 31 | D |
+| 32 | C |
+| 33 | D |
+| 34 | A |
+| 35 | D |
+| 36 | B |
+| 37 | B |
+| 38 | C |
+| 39 | B |
+| 40 | A |
+| 41 | D |
+| 42 | C |
+| 43 | B |
+| 44 | D |
+| 45 | D |
+| 46 | A |
+| 47 | A |
+| 48 | B |
+| 49 | B |
+| 50 | B | 
+
+2024-06-20 15:46:03,909 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:04,024 - pdf_parser.src.modules.generate - INFO - Format and function tag: OK
+
+2024-06-20 15:46:07,188 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:09,881 - pdf_parser.src.modules.generate - INFO - Extracted question 1, Raw response: ```json
+{
+        "question_title": "Câu 1",
+        "original_text": "Giá trị nhỏ nhất của hàm số \(y = x^4 -3x^2\) trên \([-1;1]\) là:",
+        "quiz_options":  ["A. - 2.", "B. 0.", "C. - 4.", "D. - 5."],
+        "correct_option": "C",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+2024-06-20 15:46:09,882 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 1', 'original_text': 'Giá trị nhỏ nhất của hàm số \\(y = x^4 -3x^2\\) trên \\([-1;1]\\) là:', 'quiz_options': ['A. - 2.', 'B. 0.', 'C. - 4.', 'D. - 5.'], 'correct_option': 'C', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:46:12,919 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:17,370 - pdf_parser.src.modules.generate - INFO - Extracted question 2, Raw response: ```json
+{
+        "question_title": "Câu 2",
+        "original_text": "Cho hàm số \(y = f (x)\) có \(f '(x) = x(x−1)\). Nhận xét nào sau đây là sai?",
+        "quiz_options":  ["A.Hàm số đồng biến trên khoảng \((-\infty;3)\) và \((1;+\infty)\).", "B.Hàm số nghịch biến trên khoảng \((0;1)\).", "C.Hàm số đồng biến trên khoảng \((-\infty;0)\) và \((1;+\infty)\).", "D.Hàm số đạt cực trị tại các điểm \(x = 0\) và \(x =1\)."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+2024-06-20 15:46:17,370 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 2', 'original_text': "Cho hàm số \\(y = f (x)\\) có \\(f '(x) = x(x−1)\\). Nhận xét nào sau đây là sai?", 'quiz_options': ['A.Hàm số đồng biến trên khoảng \\((-\\infty;3)\\) và \\((1;+\\infty)\\).', 'B.Hàm số nghịch biến trên khoảng \\((0;1)\\).', 'C.Hàm số đồng biến trên khoảng \\((-\\infty;0)\\) và \\((1;+\\infty)\\).', 'D.Hàm số đạt cực trị tại các điểm \\(x = 0\\) và \\(x =1\\).'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:46:20,423 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:22,192 - pdf_parser.src.modules.generate - INFO - Extracted question 3, Raw response: ```json
+{
+        "question_title": "Câu 3",
+        "original_text": "Cho hàm số \(y = f(x)\) có đồ thị như hình vẽ:",
+        "quiz_options": [],
+        "correct_option": null,
+        "question_type": "essay",
+        "explanation": ""
+}
+```
+
+2024-06-20 15:46:22,193 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 3', 'original_text': 'Cho hàm số \\(y = f(x)\\) có đồ thị như hình vẽ:', 'quiz_options': [], 'correct_option': None, 'question_type': 'essay', 'explanation': ''}
+2024-06-20 15:46:25,216 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:28,651 - pdf_parser.src.modules.generate - INFO - Extracted question 4, Raw response: ```json
+{
+        "question_title": "Câu 4",
+        "original_text": "Đồ thị sau đây là của hàm số nào?",
+        "quiz_options": ["A. \(y = x^4 - 3x^2 -3\).", "B. \(y = x^4 + 2x^2 -3\).", "C. \(y = x^4 - 2x^2 -3\).", "D. \(y = \\frac{1}{4} -x^4+3x^2-3\)."],
+        "correct_option": "C",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+2024-06-20 15:46:28,651 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 4', 'original_text': 'Đồ thị sau đây là của hàm số nào?', 'quiz_options': ['A. \\(y = x^4 - 3x^2 -3\\).', 'B. \\(y = x^4 + 2x^2 -3\\).', 'C. \\(y = x^4 - 2x^2 -3\\).', 'D. \\(y = \\frac{1}{4} -x^4+3x^2-3\\).'], 'correct_option': 'C', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:46:32,015 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:34,477 - pdf_parser.src.modules.generate - INFO - Extracted question 5, Raw response: ```json
+{
+        "question_title": "Câu 5",
+        "original_text": "Thể tích khối lăng trụ có diện tích đáy B và chiều cao h là",
+        "quiz_options":  ["A. \(\\frac{1}{3}Bh\).", "B. Bh.", "C. 3(B+h).", "D. \(\\frac{1}{3}(B+h)\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+2024-06-20 15:46:34,477 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 5', 'original_text': 'Thể tích khối lăng trụ có diện tích đáy B và chiều cao h là', 'quiz_options': ['A. \\(\\frac{1}{3}Bh\\).', 'B. Bh.', 'C. 3(B+h).', 'D. \\(\\frac{1}{3}(B+h)\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:46:37,509 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:40,280 - pdf_parser.src.modules.generate - INFO - Extracted question 6, Raw response: ```json
+{
+        "question_title": "Câu 6",
+        "original_text": "Thể tích khối chóp có diện tích đáy B và chiều cao h là",
+        "quiz_options":  ["A. \(\\frac{1}{3}Bh\).", "B. \(\\frac{1}{3}(B+h)\).", "C. Bh.", "D. \(\\frac{1}{3}Bh\)."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+2024-06-20 15:46:40,280 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 6', 'original_text': 'Thể tích khối chóp có diện tích đáy B và chiều cao h là', 'quiz_options': ['A. \\(\\frac{1}{3}Bh\\).', 'B. \\(\\frac{1}{3}(B+h)\\).', 'C. Bh.', 'D. \\(\\frac{1}{3}Bh\\).'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:46:43,401 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:46,831 - pdf_parser.src.modules.generate - INFO - Extracted question 7, Raw response: ```json
+{
+        "question_title": "Câu 7",
+        "original_text": "Cho hàm số \(y = f(x)\) có bảng biến thiên: \n\nKhẳng định nào sau đây là đúng?",
+        "quiz_options":  ["A. Hàm số đạt cực đại tại \(x = 2\).", "B. Hàm số đạt cực đại tại \(x = 3\).", "C. Hàm số đạt cực đại tại \(x = −2\).", "D. Giá trị cực đại của hàm số là 2."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+2024-06-20 15:46:46,831 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 7', 'original_text': 'Cho hàm số \\(y = f(x)\\) có bảng biến thiên: \\n\nKhẳng định nào sau đây là đúng?', 'quiz_options': ['A. Hàm số đạt cực đại tại \\(x = 2\\).', 'B. Hàm số đạt cực đại tại \\(x = 3\\).', 'C. Hàm số đạt cực đại tại \\(x = −2\\).', 'D. Giá trị cực đại của hàm số là 2.'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:46:49,979 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:53,042 - pdf_parser.src.modules.generate - INFO - Extracted question 8, Raw response: ```json
+{
+        "question_title": "Câu 8",
+        "original_text": "Tiệm cận ngang của đồ thị hàm số \(y = \\frac{1-2x}{1-x^2}\) là đường thẳng có phương trình:",
+        "quiz_options":  ["A. \(x = -1\); \(x =1\).", "B. \(y = 2\).", "C. \(y = -2\).", "D. \(y = 0\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+2024-06-20 15:46:53,042 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 8', 'original_text': 'Tiệm cận ngang của đồ thị hàm số \\(y = \\frac{1-2x}{1-x^2}\\) là đường thẳng có phương trình:', 'quiz_options': ['A. \\(x = -1\\); \\(x =1\\).', 'B. \\(y = 2\\).', 'C. \\(y = -2\\).', 'D. \\(y = 0\\).'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:46:56,453 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:46:58,792 - pdf_parser.src.modules.generate - INFO - Extracted question 9, Raw response: ```json
+{
+        "question_title": "Câu 9",
+        "original_text": "Thể tích của khối lập phương có cạnh bằng a là",
+        "quiz_options":  ["A. 6a.", "B. 12a.", "C. \(6a^3\).", "D. \(a^3\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+2024-06-20 15:46:58,793 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 9', 'original_text': 'Thể tích của khối lập phương có cạnh bằng a là', 'quiz_options': ['A. 6a.', 'B. 12a.', 'C. \\(6a^3\\).', 'D. \\(a^3\\).'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:47:01,877 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:04,164 - pdf_parser.src.modules.generate - INFO - Extracted question 10, Raw response: ```json
+{
+        "question_title": "Câu 10",
+        "original_text": "Mỗi cạnh của một đa diện là cạnh chung của đúng mấy đa giác?",
+        "quiz_options":  ["A. Bốn đa giác.", "B. Ba đa giác.", "C. Năm đa giác.", "D. Hai đa giác."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+2024-06-20 15:47:04,164 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 10', 'original_text': 'Mỗi cạnh của một đa diện là cạnh chung của đúng mấy đa giác?', 'quiz_options': ['A. Bốn đa giác.', 'B. Ba đa giác.', 'C. Năm đa giác.', 'D. Hai đa giác.'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:47:07,548 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:09,945 - pdf_parser.src.modules.generate - INFO - Extracted question 11, Raw response: ```json
+{
+        "question_title": "Câu 11",
+        "original_text": "Số điểm cực trị của hàm số \(y = x^3 −3x^2 −9x+1\) là",
+        "quiz_options":  ["A. 1.", "B. 0.", "C. 3.", "D. 2."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+2024-06-20 15:47:09,946 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 11', 'original_text': 'Số điểm cực trị của hàm số \\(y = x^3 −3x^2 −9x+1\\) là', 'quiz_options': ['A. 1.', 'B. 0.', 'C. 3.', 'D. 2.'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:47:13,101 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:15,514 - pdf_parser.src.modules.generate - INFO - Extracted question 12, Raw response: ```json
+{
+        "question_title": "Câu 12",
+        "original_text": "Khối tứ diện đều là khối đa diện đều loại",
+        "quiz_options":  ["A. {4;3}.", "B. {3;4}.", "C. {3;5}.", "D. {3;3}."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+2024-06-20 15:47:15,515 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 12', 'original_text': 'Khối tứ diện đều là khối đa diện đều loại', 'quiz_options': ['A. {4;3}.', 'B. {3;4}.', 'C. {3;5}.', 'D. {3;3}.'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:47:18,441 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:21,888 - pdf_parser.src.modules.generate - INFO - Extracted question 13, Raw response: ```json
+{
+        "question_title": "Câu 13",
+        "original_text": "Đồ thị hàm số nào sau đây có đường tiệm cận đứng là \(x = 1\)?",
+        "quiz_options":  ["A. \(y = \\frac{x-1}{x+1}\)", "B. \(y = \\frac{x-1}{x}\)", "C. \(y = \\frac{2x}{1+x^2}\)", "D. \(y = \\frac{2x}{1-x}\)"],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+2024-06-20 15:47:21,889 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 13', 'original_text': 'Đồ thị hàm số nào sau đây có đường tiệm cận đứng là \\(x = 1\\)?', 'quiz_options': ['A. \\(y = \\frac{x-1}{x+1}\\)', 'B. \\(y = \\frac{x-1}{x}\\)', 'C. \\(y = \\frac{2x}{1+x^2}\\)', 'D. \\(y = \\frac{2x}{1-x}\\)'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:47:24,781 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:27,377 - pdf_parser.src.modules.generate - INFO - Extracted question 14, Raw response: ```json
+{
+        "question_title": "Câu 14",
+        "original_text": "Nếu số thực \(a > 0\) thì \(\sqrt{a}.\sqrt{a}\) bằng:",
+        "quiz_options":  ["A. \(V_a\).", "B. \(V_a^{12}\).", "C. a.", "D. \(\sqrt{a}\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+2024-06-20 15:47:27,378 - pdf_parser.src.modules.generate - ERROR - Error at question 14: Invalid \escape: line 3 column 58 (char 95)
+2024-06-20 15:47:27,378 - pdf_parser.src.modules.generate - ERROR - Raw response: ```json
+{
+        "question_title": "Câu 14",
+        "original_text": "Nếu số thực \(a > 0\) thì \(\sqrt{a}.\sqrt{a}\) bằng:",
+        "quiz_options":  ["A. \(V_a\).", "B. \(V_a^{12}\).", "C. a.", "D. \(\sqrt{a}\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+2024-06-20 15:47:30,497 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:33,750 - pdf_parser.src.modules.generate - INFO - Extracted question 15, Raw response: ```json
+{
+        "question_title": "Câu 15",
+        "original_text": "Cho hàm số \(y = f(x)\) có bảng biến thiên như hình:\n\nMệnh đề nào sau đây đúng?",
+        "quiz_options":  ["A.Hàm số đã cho đồng biến trên khoảng \((-\infty;2)\).", "B.Hàm số đã cho đồng biến trên khoảng \((-\infty;-1)\).", "C.Hàm số đã cho đồng biến trên R.", "D.Hàm số đã cho đồng biến trên \(R\\{-1\}\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+2024-06-20 15:47:33,751 - pdf_parser.src.modules.generate - ERROR - Error at question 15: Invalid \escape: line 4 column 231 (char 381)
+2024-06-20 15:47:33,751 - pdf_parser.src.modules.generate - ERROR - Raw response: ```json
+{
+        "question_title": "Câu 15",
+        "original_text": "Cho hàm số \(y = f(x)\) có bảng biến thiên như hình:\n\nMệnh đề nào sau đây đúng?",
+        "quiz_options":  ["A.Hàm số đã cho đồng biến trên khoảng \((-\infty;2)\).", "B.Hàm số đã cho đồng biến trên khoảng \((-\infty;-1)\).", "C.Hàm số đã cho đồng biến trên R.", "D.Hàm số đã cho đồng biến trên \(R\\{-1\}\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+2024-06-20 15:47:37,002 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:40,048 - pdf_parser.src.modules.generate - INFO - Extracted question 16, Raw response: ```json
+{
+        "question_title": "Câu 16",
+        "original_text": "Tập xác định của hàm số \(y = \\sqrt{\\frac{1-2x}{x+3}}\) là :",
+        "quiz_options":  ["A. \([\\frac{1}{2};+\infty)\).", "B. \(x≠-3\).", "C. \(R\\{-3\}\).", "D. \((-3;\\frac{1}{2}]\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+2024-06-20 15:47:40,048 - pdf_parser.src.modules.generate - ERROR - Error at question 16: Invalid \escape: line 4 column 98 (char 228)
+2024-06-20 15:47:40,049 - pdf_parser.src.modules.generate - ERROR - Raw response: ```json
+{
+        "question_title": "Câu 16",
+        "original_text": "Tập xác định của hàm số \(y = \\sqrt{\\frac{1-2x}{x+3}}\) là :",
+        "quiz_options":  ["A. \([\\frac{1}{2};+\infty)\).", "B. \(x≠-3\).", "C. \(R\\{-3\}\).", "D. \((-3;\\frac{1}{2}]\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+2024-06-20 15:47:42,976 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:46,042 - pdf_parser.src.modules.generate - INFO - Extracted question 17, Raw response: ```json
+{
+        "question_title": "Câu 17",
+        "original_text": "Hàm số nào sau đây đồng biến trên các khoảng xác định của nó?",
+        "quiz_options":  ["A. \(y = x^4\).", "B. \(y = \sqrt{x}\).", "C. \(y=x^{\\frac{1}{3}}\).", "D. \(y = x^\\frac{1}{4}\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+2024-06-20 15:47:46,043 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 17', 'original_text': 'Hàm số nào sau đây đồng biến trên các khoảng xác định của nó?', 'quiz_options': ['A. \\(y = x^4\\).', 'B. \\(y = \\sqrt{x}\\).', 'C. \\(y=x^{\\frac{1}{3}}\\).', 'D. \\(y = x^\\frac{1}{4}\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:47:48,988 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:51,466 - pdf_parser.src.modules.generate - INFO - Extracted question 18, Raw response: ```json
+{
+        "question_title": "Câu 18",
+        "original_text": "Giá trị lớn nhất của hàm số \(y = \sqrt{4x-x^2}\) là:",
+        "quiz_options":  ["A. 2.", "B. 0.", "C. 1.", "D. 4."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+2024-06-20 15:47:51,467 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 18', 'original_text': 'Giá trị lớn nhất của hàm số \\(y = \\sqrt{4x-x^2}\\) là:', 'quiz_options': ['A. 2.', 'B. 0.', 'C. 1.', 'D. 4.'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:47:54,322 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:47:56,214 - pdf_parser.src.modules.generate - INFO - Extracted question 19, Raw response: ```json
+{
+        "question_title": "Câu 19",
+        "original_text": "Hình tứ diện có mấy mặt?",
+        "quiz_options":  ["A. 8.", "B. 1.", "C. 6.", "D. 4."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+2024-06-20 15:47:56,215 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 19', 'original_text': 'Hình tứ diện có mấy mặt?', 'quiz_options': ['A. 8.', 'B. 1.', 'C. 6.', 'D. 4.'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:47:59,085 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:01,362 - pdf_parser.src.modules.generate - INFO - Extracted question 20, Raw response: ```json
+{
+        "question_title": "Câu 20",
+        "original_text": "Có mấy loại khối đa diện đều?",
+        "quiz_options":  ["A. 12.", "B. 20.", "C. 8.", "D. 5."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+2024-06-20 15:48:01,363 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 20', 'original_text': 'Có mấy loại khối đa diện đều?', 'quiz_options': ['A. 12.', 'B. 20.', 'C. 8.', 'D. 5.'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:48:04,610 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:07,980 - pdf_parser.src.modules.generate - INFO - Extracted question 21, Raw response: ```json
+{
+        "question_title": "Câu 21",
+        "original_text": "Tìm câu sai trong các mệnh đề sau về GTLN và GTNN của hàm số \(y = |x^3-3x+1|, x ∈ [0;3]\)?",
+        "quiz_options":  ["A. Max y = 19.", "B. Hàm số đạt GTLN khi x = 3.", "C. Min y = 1.", "D. Hàm số có GTLN và GTNN."],
+        "correct_option": "C",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+2024-06-20 15:48:07,981 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 21', 'original_text': 'Tìm câu sai trong các mệnh đề sau về GTLN và GTNN của hàm số \\(y = |x^3-3x+1|, x ∈ [0;3]\\)?', 'quiz_options': ['A. Max y = 19.', 'B. Hàm số đạt GTLN khi x = 3.', 'C. Min y = 1.', 'D. Hàm số có GTLN và GTNN.'], 'correct_option': 'C', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:48:11,225 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:13,449 - pdf_parser.src.modules.generate - INFO - Extracted question 22, Raw response: ```json
+{
+        "question_title": "Câu 22",
+        "original_text": "Tổng số mặt, số cạnh và số đỉnh của hình lập phương là",
+        "quiz_options":  ["A. 8.", "B. 16.", "C. 24.", "D. 26."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:48:13,449 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 22', 'original_text': 'Tổng số mặt, số cạnh và số đỉnh của hình lập phương là', 'quiz_options': ['A. 8.', 'B. 16.', 'C. 24.', 'D. 26.'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:48:17,008 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:20,331 - pdf_parser.src.modules.generate - INFO - Extracted question 23, Raw response: ```json
+{
+        "question_title": "Câu 23",
+        "original_text": "Cho hàm số \(y = x^3\). Mệnh đề nào sau đây là sai?",
+        "quiz_options":  ["A. Đồ thị hàm số có một tâm đối xứng.", "B. Đồ thị hàm số có một trục đối xứng.", "C. Đồ thị hàm số có hai đường tiệm cận.", "D. Đồ thị hàm số đi qua điểm \((-1;1)\)."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:48:20,332 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 23', 'original_text': 'Cho hàm số \\(y = x^3\\). Mệnh đề nào sau đây là sai?', 'quiz_options': ['A. Đồ thị hàm số có một tâm đối xứng.', 'B. Đồ thị hàm số có một trục đối xứng.', 'C. Đồ thị hàm số có hai đường tiệm cận.', 'D. Đồ thị hàm số đi qua điểm \\((-1;1)\\).'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:48:24,016 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:26,598 - pdf_parser.src.modules.generate - INFO - Extracted question 24, Raw response: ```json
+{
+        "question_title": "Câu 24",
+        "original_text": "Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số \(y = \\frac{x^2+2x-3}{x^2-1}\) là",
+        "quiz_options":  ["A. 1.", "B. 3.", "C. 2.", "D. 4."],
+        "correct_option": "C",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:48:26,599 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 24', 'original_text': 'Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số \\(y = \\frac{x^2+2x-3}{x^2-1}\\) là', 'quiz_options': ['A. 1.', 'B. 3.', 'C. 2.', 'D. 4.'], 'correct_option': 'C', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:48:29,899 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:31,615 - pdf_parser.src.modules.generate - INFO - Extracted question 25, Raw response: ```json
+{
+        "question_title": "Câu 25",
+        "original_text": "Hàm số nào sau đây đồng biến trên khoảng \((-\infty;+\infty)\)?",
+        "quiz_options":  [],
+        "correct_option": null,
+        "question_type": "essay",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:48:31,616 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 25', 'original_text': 'Hàm số nào sau đây đồng biến trên khoảng \\((-\\infty;+\\infty)\\)?', 'quiz_options': [], 'correct_option': None, 'question_type': 'essay', 'explanation': ''}
+2024-06-20 15:48:35,323 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:38,788 - pdf_parser.src.modules.generate - INFO - Extracted question 26, Raw response: ```json
+{
+        "question_title": "Câu 26",
+        "original_text": "Cho đồ thị hàm số \(y = ax^4 +bx^2 +c\) như hình vẽ. Tìm mệnh đề đúng?",
+        "quiz_options":  ["A. \(a<0,b<0,c<0\).", "B. \(a>0,b<0,c<0\).", "C. \(a<0,b>0,c<0\).", "D. \(a>0,b<0,c>0\)."],
+        "correct_option": "C",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+2024-06-20 15:48:38,789 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 26', 'original_text': 'Cho đồ thị hàm số \\(y = ax^4 +bx^2 +c\\) như hình vẽ. Tìm mệnh đề đúng?', 'quiz_options': ['A. \\(a<0,b<0,c<0\\).', 'B. \\(a>0,b<0,c<0\\).', 'C. \\(a<0,b>0,c<0\\).', 'D. \\(a>0,b<0,c>0\\).'], 'correct_option': 'C', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:48:42,203 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:45,646 - pdf_parser.src.modules.generate - INFO - Extracted question 27, Raw response: ```json
+{
+        "question_title": "Câu 27",
+        "original_text": "Rút gọn biểu thức \(P = \\frac{a\\sqrt{7}+1.9\\sqrt{2}-2\\sqrt{2}+2}{(a\\sqrt{7}+1)(\\sqrt{2}-1)}(a>0)\) được kết quả là:",
+        "quiz_options":  ["A. \(P = a^3\).", "B. \(P = a^{\\frac{2}{3}}\).", "C. \(P = a\).", "D. \(P = a^2\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+2024-06-20 15:48:45,646 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 27', 'original_text': 'Rút gọn biểu thức \\(P = \\frac{a\\sqrt{7}+1.9\\sqrt{2}-2\\sqrt{2}+2}{(a\\sqrt{7}+1)(\\sqrt{2}-1)}(a>0)\\) được kết quả là:', 'quiz_options': ['A. \\(P = a^3\\).', 'B. \\(P = a^{\\frac{2}{3}}\\).', 'C. \\(P = a\\).', 'D. \\(P = a^2\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:48:48,767 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:50,421 - pdf_parser.src.modules.generate - INFO - Extracted question 28, Raw response: ```json
+{
+        "question_title": "Câu 28",
+        "original_text": "Hình vẽ bên là bảng biến thiên là của hàm số nào?",
+        "quiz_options": [],
+        "correct_option": null,
+        "question_type": "essay",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:48:50,421 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 28', 'original_text': 'Hình vẽ bên là bảng biến thiên là của hàm số nào?', 'quiz_options': [], 'correct_option': None, 'question_type': 'essay', 'explanation': ''}
+2024-06-20 15:48:53,462 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:48:56,734 - pdf_parser.src.modules.generate - INFO - Extracted question 29, Raw response: ```json
+{
+        "question_title": "Câu 29",
+        "original_text": "Cho hàm số \(y = f(x)\) xác định trên \(R \\{1\}\),\nliên tục trên mỗi khoảng xác định và có bảng biến\nthiên như hình dưới đây\n\nĐồ thị hàm số đã cho có bao nhiêu đường tiệm cận?",
+        "quiz_options":  ["A. 3.", "B. 4.", "C. 1.", "D. 2."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:48:56,734 - pdf_parser.src.modules.generate - ERROR - Error at question 29: Invalid \escape: line 3 column 79 (char 116)
+2024-06-20 15:48:56,734 - pdf_parser.src.modules.generate - ERROR - Raw response: ```json
+{
+        "question_title": "Câu 29",
+        "original_text": "Cho hàm số \(y = f(x)\) xác định trên \(R \\{1\}\),\nliên tục trên mỗi khoảng xác định và có bảng biến\nthiên như hình dưới đây\n\nĐồ thị hàm số đã cho có bao nhiêu đường tiệm cận?",
+        "quiz_options":  ["A. 3.", "B. 4.", "C. 1.", "D. 2."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:48:59,856 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:02,604 - pdf_parser.src.modules.generate - INFO - Extracted question 30, Raw response: ```json
+{
+        "question_title": "Câu 30",
+        "original_text": "Cho hàm số \(y = f(x)\). Hàm số \(y = f '(x)\) có đồ thị như hình vẽ:\n\nSố điểm cực trị của hàm số là",
+        "quiz_options":  ["A. 1.", "B. 4.", "C. 2.", "D. 3."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:49:02,604 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 30', 'original_text': "Cho hàm số \\(y = f(x)\\). Hàm số \\(y = f '(x)\\) có đồ thị như hình vẽ:\\n\nSố điểm cực trị của hàm số là", 'quiz_options': ['A. 1.', 'B. 4.', 'C. 2.', 'D. 3.'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:05,924 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:09,324 - pdf_parser.src.modules.generate - INFO - Extracted question 31, Raw response: ```json
+{
+        "question_title": "Câu 31",
+        "original_text": "Cho hình bát diện đều có cạnh bằng a . Tổng diện tích của tất cả các mặt của hình bát diện đều đó là",
+        "quiz_options":  ["A. \(4a^2 \sqrt{3}\).", "B. \(\\frac{a^2\sqrt{3}}{2}\).", "C. \(\\frac{a^2\sqrt{3}}{4}\).", "D. \(2a^2 \sqrt{3}\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:49:09,324 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 31', 'original_text': 'Cho hình bát diện đều có cạnh bằng a . Tổng diện tích của tất cả các mặt của hình bát diện đều đó là', 'quiz_options': ['A. \\(4a^2 \\sqrt{3}\\).', 'B. \\(\\frac{a^2\\sqrt{3}}{2}\\).', 'C. \\(\\frac{a^2\\sqrt{3}}{4}\\).', 'D. \\(2a^2 \\sqrt{3}\\).'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:12,391 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:15,188 - pdf_parser.src.modules.generate - INFO - Extracted question 32, Raw response: ```json
+{
+        "question_title": "Câu 32",
+        "original_text": "Thể tích của khối hộp chữ nhật có ba kích thước 2cm,3cm, 5cm là",
+        "quiz_options":  ["A. \(10cm\).", "B. \(30cm\).", "C. \(30cm^3\).", "D. \(10cm^3\)."],
+        "correct_option": "C",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:49:15,188 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 32', 'original_text': 'Thể tích của khối hộp chữ nhật có ba kích thước 2cm,3cm, 5cm là', 'quiz_options': ['A. \\(10cm\\).', 'B. \\(30cm\\).', 'C. \\(30cm^3\\).', 'D. \\(10cm^3\\).'], 'correct_option': 'C', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:18,305 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:21,487 - pdf_parser.src.modules.generate - INFO - Extracted question 33, Raw response: ```json
+{
+        "question_title": "Câu 33",
+        "original_text": "Hàm số \(y = \\frac{x^3}{3} -3x^2 +5x-2022\) nghịch biến trên khoảng",
+        "quiz_options":  ["A. \((2;3)\).", "B. \((5;+\infty)\).", "C. \((-\infty;1)\).", "D. \((1;5)\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:49:21,488 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 33', 'original_text': 'Hàm số \\(y = \\frac{x^3}{3} -3x^2 +5x-2022\\) nghịch biến trên khoảng', 'quiz_options': ['A. \\((2;3)\\).', 'B. \\((5;+\\infty)\\).', 'C. \\((-\\infty;1)\\).', 'D. \\((1;5)\\).'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:24,809 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:27,593 - pdf_parser.src.modules.generate - INFO - Extracted question 34, Raw response: ```json
+{
+        "question_title": "Câu 34",
+        "original_text": "Điểm cực đại của đồ thị hàm số \(y = x^3 −12x+12\) là",
+        "quiz_options":  ["A. \((-2;28)\).", "B. \((4;28)\).", "C. \((2;-4)\).", "D. \((-2;2)\)."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:49:27,593 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 34', 'original_text': 'Điểm cực đại của đồ thị hàm số \\(y = x^3 −12x+12\\) là', 'quiz_options': ['A. \\((-2;28)\\).', 'B. \\((4;28)\\).', 'C. \\((2;-4)\\).', 'D. \\((-2;2)\\).'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:30,644 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:34,026 - pdf_parser.src.modules.generate - INFO - Extracted question 35, Raw response: ```json
+{
+        "question_title": "Câu 35",
+        "original_text": "Cho hình chóp S.ABC có SA, SB, SC đôi một vuông góc, SA = 2cm,SB = 3cm, SC = 5cm . Thể tích của khối chóp S.ABC đó là",
+        "quiz_options":  ["A. \(10cm^3\).", "B. \(15cm\).", "C. \(15cm^3\).", "D. \(5cm^3\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+2024-06-20 15:49:34,026 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 35', 'original_text': 'Cho hình chóp S.ABC có SA, SB, SC đôi một vuông góc, SA = 2cm,SB = 3cm, SC = 5cm . Thể tích của khối chóp S.ABC đó là', 'quiz_options': ['A. \\(10cm^3\\).', 'B. \\(15cm\\).', 'C. \\(15cm^3\\).', 'D. \\(5cm^3\\).'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:37,171 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:39,909 - pdf_parser.src.modules.generate - INFO - Extracted question 36, Raw response: ```json
+{
+        "question_title": "Câu 36",
+        "original_text": "Có tất cả bao nhiêu giá trị nguyên của tham số m để hàm số \(y = (m+5) x^4 - (m-9)x^2 + 23\) chỉ có cực tiểu mà không có cực đại.",
+        "quiz_options":  ["A. vô số.", "B. 15.", "C. 9.", "D. 13."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:49:39,909 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 36', 'original_text': 'Có tất cả bao nhiêu giá trị nguyên của tham số m để hàm số \\(y = (m+5) x^4 - (m-9)x^2 + 23\\) chỉ có cực tiểu mà không có cực đại.', 'quiz_options': ['A. vô số.', 'B. 15.', 'C. 9.', 'D. 13.'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:43,725 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:48,194 - pdf_parser.src.modules.generate - INFO - Extracted question 37, Raw response: ```json
+{
+        "question_title": "Câu 37",
+        "original_text": "Cho hàm số \(y = 2x^3 −3x^2 +1\) có đồ thị (C) và đường thẳng d : \(y = x −1\). Giao điểm của (C) và d lần lượt là A(1;0), B và C. Khi đó tọa độ trung điểm I của đoạn thẳng BC là",
+        "quiz_options":  ["A. \(I(\\frac{1}{4};\\frac{3}{4})\).", "B. \(I(\\frac{1}{4};-\\frac{3}{4})\).", "C. \(I(\\frac{1}{4};-\\frac{5}{4})\).", "D. \(I(\\frac{1}{2};-\\frac{3}{2})\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:49:48,194 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 37', 'original_text': 'Cho hàm số \\(y = 2x^3 −3x^2 +1\\) có đồ thị (C) và đường thẳng d : \\(y = x −1\\). Giao điểm của (C) và d lần lượt là A(1;0), B và C. Khi đó tọa độ trung điểm I của đoạn thẳng BC là', 'quiz_options': ['A. \\(I(\\frac{1}{4};\\frac{3}{4})\\).', 'B. \\(I(\\frac{1}{4};-\\frac{3}{4})\\).', 'C. \\(I(\\frac{1}{4};-\\frac{5}{4})\\).', 'D. \\(I(\\frac{1}{2};-\\frac{3}{2})\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:51,685 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:49:54,834 - pdf_parser.src.modules.generate - INFO - Extracted question 38, Raw response: ```json
+{
+        "question_title": "Câu 38",
+        "original_text": "Gọi M và m lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số: \(y = 2sin^2x−cosx+1\). Khi đó tích M.m bằng",
+        "quiz_options":  ["A. \(\\frac{25}{4}\).", "B. 2.", "C. 0.", "D. \(\\frac{25}{8}\)."],
+        "correct_option": "C",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:49:54,835 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 38', 'original_text': 'Gọi M và m lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số: \\(y = 2sin^2x−cosx+1\\). Khi đó tích M.m bằng', 'quiz_options': ['A. \\(\\frac{25}{4}\\).', 'B. 2.', 'C. 0.', 'D. \\(\\frac{25}{8}\\).'], 'correct_option': 'C', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:49:58,305 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:02,173 - pdf_parser.src.modules.generate - INFO - Extracted question 39, Raw response: ```json
+{
+        "question_title": "Câu 39",
+        "original_text": "Cho hình chóp tam giác đều SABC có cạnh đáy a và mặt bên hợp với đáy một góc \(60^\circ\). Tính thể tích hình chóp SABC.",
+        "quiz_options":  ["A. \(\\frac{a^3\sqrt{2}}{12}\).", "B. \(\\frac{a^3\sqrt{3}}{24}\).", "C. \(\\frac{a^3\sqrt{3}}{12}\).", "D. \(\\frac{a^3\sqrt{3}}{8}\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:02,173 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 39', 'original_text': 'Cho hình chóp tam giác đều SABC có cạnh đáy a và mặt bên hợp với đáy một góc \\(60^\\circ\\). Tính thể tích hình chóp SABC.', 'quiz_options': ['A. \\(\\frac{a^3\\sqrt{2}}{12}\\).', 'B. \\(\\frac{a^3\\sqrt{3}}{24}\\).', 'C. \\(\\frac{a^3\\sqrt{3}}{12}\\).', 'D. \\(\\frac{a^3\\sqrt{3}}{8}\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:50:05,832 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:08,709 - pdf_parser.src.modules.generate - INFO - Extracted question 40, Raw response: ```json
+{
+        "question_title": "Câu 40",
+        "original_text": "Cho hàm số \(f(x)=\\frac{ax +3}{bx + c} (b∈Z,b≠0)\) có bảng biến thiên như hình vẽ, hãy tính tổng S=a+b-c.",
+        "quiz_options":  ["A. -2.", "B. 0.", "C. -1.", "D. 2."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:08,709 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 40', 'original_text': 'Cho hàm số \\(f(x)=\\frac{ax +3}{bx + c} (b∈Z,b≠0)\\) có bảng biến thiên như hình vẽ, hãy tính tổng S=a+b-c.', 'quiz_options': ['A. -2.', 'B. 0.', 'C. -1.', 'D. 2.'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:50:12,711 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:16,221 - pdf_parser.src.modules.generate - INFO - Extracted question 41, Raw response: ```json
+{
+        "question_title": "Câu 41",
+        "original_text": "Cho hàm số \(y = (x+2)^{-2}\). Hệ thức giữa y và y” không phụ thuộc vào biến x là:",
+        "quiz_options":  ["A. \(2y\" - 3y = 0\).", "B. \(y\" + 2y = 0\).", "C. \((y\")^2 - 4y = 0\).", "D. \(y\" - 6y^2 = 0\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:16,222 - pdf_parser.src.modules.generate - ERROR - Error at question 41: Expecting ',' delimiter: line 4 column 40 (char 190)
+2024-06-20 15:50:16,222 - pdf_parser.src.modules.generate - ERROR - Raw response: ```json
+{
+        "question_title": "Câu 41",
+        "original_text": "Cho hàm số \(y = (x+2)^{-2}\). Hệ thức giữa y và y” không phụ thuộc vào biến x là:",
+        "quiz_options":  ["A. \(2y\" - 3y = 0\).", "B. \(y\" + 2y = 0\).", "C. \((y\")^2 - 4y = 0\).", "D. \(y\" - 6y^2 = 0\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:19,617 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:23,054 - pdf_parser.src.modules.generate - INFO - Extracted question 42, Raw response: ```json
+{
+        "question_title": "Câu 42",
+        "original_text": "Số giá trị nguyên của tham số m thuộc đoạn [-2022;2023] để hàm số \(y=(m^2 -1)x^3+(m+1)x^2+3x−1\) đồng biến trên R là",
+        "quiz_options":  ["A. 4043.", "B. 4046.", "C. 4044.", "D. 4045."],
+        "correct_option": "C",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:23,055 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 42', 'original_text': 'Số giá trị nguyên của tham số m thuộc đoạn [-2022;2023] để hàm số \\(y=(m^2 -1)x^3+(m+1)x^2+3x−1\\) đồng biến trên R là', 'quiz_options': ['A. 4043.', 'B. 4046.', 'C. 4044.', 'D. 4045.'], 'correct_option': 'C', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:50:26,778 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:30,422 - pdf_parser.src.modules.generate - INFO - Extracted question 43, Raw response: ```json
+{
+        "question_title": "Câu 43",
+        "original_text": "Hàm số \(y = \\frac{1}{3}x^4 + (m^2-m+2)x^2 + (3m^2 +1)x+3m\) đạt cực tiểu tại \(x = −2\) khi",
+        "quiz_options":  ["A. \(m=1\).", "B. \(m = 3\).", "C. \(m = \\frac{-3}{m=1}\).", "D. \(\\frac{m = -3}{m=-1}\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:30,423 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 43', 'original_text': 'Hàm số \\(y = \\frac{1}{3}x^4 + (m^2-m+2)x^2 + (3m^2 +1)x+3m\\) đạt cực tiểu tại \\(x = −2\\) khi', 'quiz_options': ['A. \\(m=1\\).', 'B. \\(m = 3\\).', 'C. \\(m = \\frac{-3}{m=1}\\).', 'D. \\(\\frac{m = -3}{m=-1}\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:50:33,679 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:37,311 - pdf_parser.src.modules.generate - INFO - Extracted question 44, Raw response: ```json
+{
+        "question_title": "Câu 44",
+        "original_text": "Tìm tất cả các giá trị thực của tham số m sao cho hàm số \(y=(m-3)x-(2m+1)cos2x\) luôn nghịch biến trên \((-\infty;+\infty)\)?",
+        "quiz_options":  ["A. \(\\frac{m>3}{m≠1}\).", "B. \(m≤2\).", "C. \(-4≤m≤\\frac{5}{2}\).", "D. \(-\\frac{5}{2}≤m≤\\frac{1}{3}\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:37,311 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 44', 'original_text': 'Tìm tất cả các giá trị thực của tham số m sao cho hàm số \\(y=(m-3)x-(2m+1)cos2x\\) luôn nghịch biến trên \\((-\\infty;+\\infty)\\)?', 'quiz_options': ['A. \\(\\frac{m>3}{m≠1}\\).', 'B. \\(m≤2\\).', 'C. \\(-4≤m≤\\frac{5}{2}\\).', 'D. \\(-\\frac{5}{2}≤m≤\\frac{1}{3}\\).'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:50:40,595 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:44,695 - pdf_parser.src.modules.generate - INFO - Extracted question 45, Raw response: ```json
+{
+        "question_title": "Câu 45",
+        "original_text": "Cho khối chóp S.ABC có \(SA \perp (ABC)\), tam giác ABC vuông tại B, AB = a, \(AC = a\sqrt{3}\). Tính thể tích khối chóp S.ABC biết rằng \(SB = a\sqrt{5}\)",
+        "quiz_options":  ["A. \(\\frac{a^3\sqrt{6}}{6}\).", "B. \(\\frac{a^3\sqrt{15}}{6}\).", "C. \(\\frac{a^3\sqrt{6}}{4}\).", "D. \(\\frac{a^3\sqrt{2}}{3}\)."],
+        "correct_option": "D",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:44,695 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 45', 'original_text': 'Cho khối chóp S.ABC có \\(SA \\perp (ABC)\\), tam giác ABC vuông tại B, AB = a, \\(AC = a\\sqrt{3}\\). Tính thể tích khối chóp S.ABC biết rằng \\(SB = a\\sqrt{5}\\)', 'quiz_options': ['A. \\(\\frac{a^3\\sqrt{6}}{6}\\).', 'B. \\(\\frac{a^3\\sqrt{15}}{6}\\).', 'C. \\(\\frac{a^3\\sqrt{6}}{4}\\).', 'D. \\(\\frac{a^3\\sqrt{2}}{3}\\).'], 'correct_option': 'D', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:50:48,101 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:52,238 - pdf_parser.src.modules.generate - INFO - Extracted question 46, Raw response: ```json
+{
+        "question_title": "Câu 46",
+        "original_text": "Cho hàm số \(f(x) = ax^4 + bx^3 +cx^2 +dx+a\) có đồ thị hàm số \(y = f'(x)\) như hình vẽ. Hàm số \(y = g(x) = f (1-2x) + f (2−x)\) đồng biến trên khoảng nào dưới đây?",
+        "quiz_options":  ["A. \((3;+\infty)\).", "B. \((\\frac{1}{2};\\frac{3}{2})\).", "C. \((0;2)\).", "D. \((-\infty;0)\)."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:52,239 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 46', 'original_text': "Cho hàm số \\(f(x) = ax^4 + bx^3 +cx^2 +dx+a\\) có đồ thị hàm số \\(y = f'(x)\\) như hình vẽ. Hàm số \\(y = g(x) = f (1-2x) + f (2−x)\\) đồng biến trên khoảng nào dưới đây?", 'quiz_options': ['A. \\((3;+\\infty)\\).', 'B. \\((\\frac{1}{2};\\frac{3}{2})\\).', 'C. \\((0;2)\\).', 'D. \\((-\\infty;0)\\).'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:50:55,684 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:50:59,561 - pdf_parser.src.modules.generate - INFO - Extracted question 47, Raw response: ```json
+{
+        "question_title": "Câu 47",
+        "original_text": "Cho hàm số đa thức bậc ba \(y = f(x)\) có đồ thị như hình vẽ bên dưới đây. Gọi S là tập hợp các giá trị nguyên của tham số \(m∈ [-100;100]\) để hàm số \(h(x)=|f²(x)+4f(x)+3m|\) có đúng 5 điểm cực trị. Tổng tất cả các phần tử của S bằng",
+        "quiz_options":  ["A. 5049.", "B. 5047.", "C. 5043.", "D. 5050."],
+        "correct_option": "A",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:50:59,562 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 47', 'original_text': 'Cho hàm số đa thức bậc ba \\(y = f(x)\\) có đồ thị như hình vẽ bên dưới đây. Gọi S là tập hợp các giá trị nguyên của tham số \\(m∈ [-100;100]\\) để hàm số \\(h(x)=|f²(x)+4f(x)+3m|\\) có đúng 5 điểm cực trị. Tổng tất cả các phần tử của S bằng', 'quiz_options': ['A. 5049.', 'B. 5047.', 'C. 5043.', 'D. 5050.'], 'correct_option': 'A', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:51:02,920 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:51:06,590 - pdf_parser.src.modules.generate - INFO - Extracted question 48, Raw response: ```json
+{
+        "question_title": "Câu 48",
+        "original_text": "Cho (C) là đồ thị của hàm số \(y = \\frac{x^2-3x+3}{2x-2}\). Tìm m để đường thẳng \(y = m\) cắt (C) tại 2 điểm phân biệt A và B sao cho AB = 2.",
+        "quiz_options":  ["A. \(m = -1\).", "B. \(m = \\frac{-1±2\sqrt{2}}{2}\).", "C. \(m = 1\).", "D. \(m = 2\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:51:06,591 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 48', 'original_text': 'Cho (C) là đồ thị của hàm số \\(y = \\frac{x^2-3x+3}{2x-2}\\). Tìm m để đường thẳng \\(y = m\\) cắt (C) tại 2 điểm phân biệt A và B sao cho AB = 2.', 'quiz_options': ['A. \\(m = -1\\).', 'B. \\(m = \\frac{-1±2\\sqrt{2}}{2}\\).', 'C. \\(m = 1\\).', 'D. \\(m = 2\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:51:09,904 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:51:14,116 - pdf_parser.src.modules.generate - INFO - Extracted question 49, Raw response: ```json
+{
+        "question_title": "Câu 49",
+        "original_text": "Cho (C) là đồ thị của hàm số \(y = \\frac{x+1}{x-2}\). Tìm các điểm trên (C) sao cho tổng khoảng cách từ điểm đó đến 2 đường tiệm cận của đồ thị hàm số là nhỏ nhất.",
+        "quiz_options":  ["A. \((1-\sqrt{3};1-\sqrt{3})\).", "B. \((2 + \sqrt{3};1 + \sqrt{3})\) và \((2-\sqrt{3};1-\sqrt{3})\).", "C. \((1+\sqrt{3};1+\sqrt{3})\).", "D. \((1;1)\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-20 15:51:14,116 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 49', 'original_text': 'Cho (C) là đồ thị của hàm số \\(y = \\frac{x+1}{x-2}\\). Tìm các điểm trên (C) sao cho tổng khoảng cách từ điểm đó đến 2 đường tiệm cận của đồ thị hàm số là nhỏ nhất.', 'quiz_options': ['A. \\((1-\\sqrt{3};1-\\sqrt{3})\\).', 'B. \\((2 + \\sqrt{3};1 + \\sqrt{3})\\) và \\((2-\\sqrt{3};1-\\sqrt{3})\\).', 'C. \\((1+\\sqrt{3};1+\\sqrt{3})\\).', 'D. \\((1;1)\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:51:17,592 - httpx - INFO - HTTP Request: POST https://internal-luminous.tiasa.vn/api/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-20 15:51:21,613 - pdf_parser.src.modules.generate - INFO - Extracted question 50, Raw response: ```json
+{
+        "question_title": "Câu 50",
+        "original_text": "Tính thể tích khối chóp S.ABC biết \(AB =a\sqrt{5},BC = a, AC = 2a,SA = a\sqrt{2},SC=a\sqrt{6},SB=a\sqrt{5}\)",
+        "quiz_options":  ["A. \(\\frac{a^3\sqrt{2}}{2}\).", "B. \(\\frac{2a^3}{3}\).", "C. \(\\frac{a^3\sqrt{2}}{3}\).", "D. \(\\frac{a^3}{12}\)."],
+        "correct_option": "B",
+        "question_type": "multiple-choice",
+        "explanation": ""
+}
+```
+
+2024-06-20 15:51:21,613 - pdf_parser.src.modules.generate - INFO - Processed response: {'question_title': 'Câu 50', 'original_text': 'Tính thể tích khối chóp S.ABC biết \\(AB =a\\sqrt{5},BC = a, AC = 2a,SA = a\\sqrt{2},SC=a\\sqrt{6},SB=a\\sqrt{5}\\)', 'quiz_options': ['A. \\(\\frac{a^3\\sqrt{2}}{2}\\).', 'B. \\(\\frac{2a^3}{3}\\).', 'C. \\(\\frac{a^3\\sqrt{2}}{3}\\).', 'D. \\(\\frac{a^3}{12}\\).'], 'correct_option': 'B', 'question_type': 'multiple-choice', 'explanation': ''}
+2024-06-20 15:51:21,614 - pdf_parser.src.modules.generate - INFO - All questions have been extracted.
+2024-06-20 15:51:21,715 - pdf_parser.src.modules.import_ - INFO - Imported paper exam ID: 2169
