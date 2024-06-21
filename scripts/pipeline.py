@@ -31,7 +31,7 @@ def main():
     parser.add_argument("--prompt_collection_path", help="Path to the prompt collection file.", required=True)
     args = parser.parse_args()
 
-    settings = get_settings("/home/dica/Projects/syvan_projects/pdf_parser/.env.dev")
+    settings = get_settings(".env.dev")
 
     engine = create_and_check_engine(f"{settings.database_url}{settings.db_name}")
 
